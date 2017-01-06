@@ -13,7 +13,7 @@ print a**2 # a**2 -> a^2
 
 # you can create functions:
 
-def myConverter(USD, currency=8.48)
+def myConverter(USD, currency=8.48):
    """ Function that converts US dollars to NOK """
     
     NOK = USD*currency
