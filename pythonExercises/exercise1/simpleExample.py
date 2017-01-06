@@ -10,3 +10,20 @@ c = a + b
 print c
 print a*a
 print a**2 # a**2 -> a^2
+
+# you can create functions:
+
+def myConverter(USD, currency=8.48)
+   """ Function that converts US dollars to NOK """
+    
+    NOK = USD*currency
+
+    return NOK
+
+# and run the function
+
+NOK = myConverter(10)
+NOK2 = myConverter(10, currency=8.0)
+
+print "10 USD is NOK: ", NOK
+
